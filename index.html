@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Zero Frequency — Gandharwa Anand</title>
+<meta name="description" content="Zero Frequency — Geeta wisdom & motivational stories"/>
+<style>
+  :root{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans',sans-serif}
+  body{margin:0;background:#f7f7f8;color:#111}
+  header{background:#0b3b6f;color:white;padding:18px;text-align:center}
+  .container{max-width:900px;margin:18px auto;padding:12px}
+  .chapter{background:white;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #e6e7eb;cursor:pointer}
+  .chapter h3{margin:0;font-size:16px}
+  .reader{background:white;padding:16px;border-radius:8px;border:1px solid #e6e7eb;margin-top:12px}
+  .navbtns{display:flex;gap:8px;justify-content:space-between;margin-top:12px}
+  button{padding:8px 12px;border-radius:8px;border:0;background:#0b3b6f;color:white;cursor:pointer}
+  .small{font-size:13px;background:transparent;color:#0b3b6f;border:1px solid #0b3b6f}
+</style>
+</head>
+<body>
+<header>
+  <div style="font-size:18px;font-weight:700">Zero Frequency</div>
+  <div style="font-size:12px;opacity:.9">Geeta wisdom & motivational stories — Gandharwa Anand</div>
+</header>
+
+<div class="container">
+  <h2>प्रथम भाग</h2>
+  <div class="chapter" onclick="show(1)">1. विज्ञान के अनुसार आवृत्ति</div>
+  <div class="chapter" onclick="show(2)">2. आकर्षण का नियम</div>
+  <div class="chapter" onclick="show(3)">3. शून्य आवृत्ति का सिद्धांत</div>
+  <div class="chapter" onclick="show(4)">4. जीवन: एक लीला</div>
+  <div class="chapter" onclick="show(5)">5. 'शून्य' की अवधारणा</div>
+  <div class="chapter" onclick="show(6)">6. कृतज्ञता की महिमा</div>
+  <div class="chapter" onclick="show(7)">7. आत्म साक्षात्कार की प्रक्रिया</div>
+  <div class="chapter" onclick="show(8)">8. मृगतृष्णा का जल</div>
+
+  <h2>द्वितीय भाग</h2>
+  <div class="chapter" onclick="show(9)">1. मानवीय लक्ष्य की आवृत्ति</div>
+  <div class="chapter" onclick="show(10)">2. लक्ष्य में दूरदर्शिता का भाव</div>
+  <div class="chapter" onclick="show(11)">3. आत्म छवि</div>
+  <div class="chapter" onclick="show(12)">4. जीवन में सही मार्गदर्शकों को शामिल करें</div>
+  <div class="chapter" onclick="show(13)">5. धन और उद्देश्य</div>
+  <div class="chapter" onclick="show(14)">6. इच्छा और विश्वास</div>
+  <div class="chapter" onclick="show(15)">7. पुनरावृति की शक्ति</div>
+  <div class="chapter" onclick="show(16)">8. अपने को जानो, सब स्वतः हो जाएगा</div>
+  <div class="chapter" onclick="show(17)">9. बड़ा लक्ष्य</div>
+  <div class="chapter" onclick="show(18)">10. सफलता के लिए सुदृढ़ कार्य नीति</div>
+  <div class="chapter" onclick="show(19)">11. एक बार निर्णय लें</div>
+  <div class="chapter" onclick="show(20)">12. थोड़ा और प्रयास करें</div>
+  <div class="chapter" onclick="show(21)">13. धन का वास्तविक उद्देश्य</div>
+  <div class="chapter" onclick="show(22)">14. आप खुद ही सफल बन सकते हैं</div>
+  <div class="chapter" onclick="show(23)">15. अज्ञानता के विरुद्ध संघर्ष</div>
+  <div class="chapter" onclick="show(24)">16. हार मानने से इंकार</div>
+  <div class="chapter" onclick="show(25)">17. दूसरों को सफल होने में मदद करें</div>
+  <div class="chapter" onclick="show(26)">18. विचारों की शक्ति</div>
+  <div class="chapter" onclick="show(27)">19. अवसर को पहचानें</div>
+  <div class="chapter" onclick="show(28)">20. खुशी सदा ही वर्तमान में है</div>
+  <div class="chapter" onclick="show(29)">21. साक्षी भाव या दृष्टा भाव</div>
+  <div class="chapter" onclick="show(30)">22. प्रेम की फ्रीक्वेंसी अनंत लेयर पर काम कर</div>
+
+  <div id="reader" class="reader" style="display:none">
+    <h3 id="title"></h3>
+    <div id="content" style="white-space:pre-wrap;margin-top:10px"></div>
+    <div class="navbtns">
+      <button class="small" onclick="back()">← Back</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const data = {
+  1: "अध्याय 1: विज्ञान के अनुसार आवृत्ति — यहां अपना अध्याय का पूरा पाठ लिखें।",
+  2: "अध्याय 2: आकर्षण का नियम — यहां विवरण लिखें।",
+  3: "अध्याय 3: शून्य आवृत्ति का सिद्धांत — यहां अध्याय सामग्री।",
+  // इसी तरह आप बाकी अध्यायों का टेक्स्ट जोड़ सकते हैं...
+};
+
+function show(num){
+  document.getElementById('reader').style.display='block';
+  document.getElementById('title').textContent = Object.keys(data).includes(num.toString()) ? data[num].split('—')[0] : 'Zero Frequency';
+  document.getElementById('content').textContent = data[num] || 'यह अध्याय शीघ्र आएगा।';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function back(){
+  document.getElementById('reader').style.display='none';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+
+<footer style=\"text-align:center;padding:20px;color:#666;font-size:13px;\">© Gandharwa Anand — Zero Frequency</footer>
+</body>
+</html>
