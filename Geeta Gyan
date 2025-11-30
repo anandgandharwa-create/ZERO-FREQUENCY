@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>गीता व वेदांत ज्ञान</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:25px;
+            font-family: "Noto Sans Devanagari", sans-serif;
+            background: linear-gradient(to bottom, #d5eaff, #f7f0d0);
+        }
+
+        .box{
+            background:white;
+            padding:25px;
+            border-radius:18px;
+            border:2px solid #d4af37;
+            box-shadow:0 0 20px rgba(0,0,0,0.12);
+        }
+
+        h1{
+            text-align:center;
+            font-size:28px;
+            color:#0a4d8c;
+            margin-bottom:10px;
+        }
+
+        .sub{
+            text-align:center;
+            font-size:18px;
+            color:#d4af37;
+            font-weight:bold;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:20px;
+            line-height:1.8;
+            color:#333;
+        }
+
+        .quote{
+            background:#eaf5ff;
+            padding:18px;
+            border-left:6px solid #d4af37;
+            border-radius:10px;
+            font-size:22px;
+            font-weight:600;
+            margin:20px 0;
+            color:#004b80;
+        }
+
+        a{
+            display:block;
+            margin-top:25px;
+            text-align:center;
+            padding:14px;
+            background:#0a4d8c;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-size:18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>गीता व वेदांत का ज्ञान</h1>
+        <div class="sub">दिव्य सत्य • आध्यात्मिक दिशा • आत्मा का विज्ञान</div>
+
+        <div class="quote">
+            ⭐ "आत्मा न मरती है न जन्म लेती है — वह शाश्वत, अजन्मा और अविनाशी है।"  
+            — श्रीमद्भगवद्गीता
+        </div>
+
+        <p>
+            यहाँ प्रतिदिन आपको गीता, उपनिषद् और वेदांत का  
+            गहन, सरल और अनुभूति-आधारित ज्ञान मिलेगा।  
+            यह पृष्ठ आत्म-विकास, चित्तशुद्धि और ज्ञान-प्रकाश के लिए समर्पित है।
+        </p>
+
+        <p>
+            इस ज्ञान को पढ़ते समय मन को शांत रखें,  
+            और प्रत्येक वाक्य को भीतर उतरने दें।  
+            सच्चा ज्ञान वही है जो आपके जीवन को भीतर से प्रकाशित कर दे।
+        </p>
+
+        <a href="index.html">⬅ मुख्य पेज पर वापस जाएँ</a>
+    </div>
+</body>
+</html>
