@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>गीता श्लोक और व्याख्या</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:25px;
+            font-family: "Noto Sans Devanagari", sans-serif;
+            background: linear-gradient(to bottom, #d5eaff, #f7f0d0);
+        }
+
+        .content-box{
+            background:white;
+            padding:30px;
+            border-radius:18px;
+            border:2px solid #d4af37;
+            box-shadow:0 0 25px rgba(0,0,0,0.13);
+            max-width:800px;
+            margin:auto;
+        }
+
+        h1{
+            text-align:center;
+            color:#0a4d8c;
+            font-size:28px;
+            margin-bottom:20px;
+        }
+
+        .shloka{
+            background:#eaf5ff;
+            border-left:6px solid #d4af37;
+            padding:20px;
+            border-radius:12px;
+            font-size:24px;
+            font-weight:600;
+            color:#004b80;
+            line-height:1.8;
+            margin-bottom:25px;
+        }
+
+        .title{
+            font-size:20px;
+            font-weight:bold;
+            color:#d4af37;
+            margin-bottom:10px;
+        }
+
+        .vyakhya{
+            font-size:20px;
+            line-height:1.9;
+            color:#333;
+            text-align:justify;
+        }
+
+        a{
+            display:block;
+            margin-top:30px;
+            text-align:center;
+            padding:14px;
+            background:#0a4d8c;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-size:18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-box">
+        
+        <h1>गीता श्लोक एवं व्याख्या</h1>
+
+        <div class="shloka">
+            शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया ।<br>
+            आत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत् ॥२५॥
+        </div>
+
+        <div class="title">✨ व्याख्या</div>
+
+        <div class="vyakhya">
+            इस श्लोक में श्रीकृष्ण अर्जुन को बताते हैं कि इस संसार में ज्ञान के समान 
+            पवित्र करने वाली कोई दूसरी वस्तु नहीं है। यहाँ “ज्ञान” से साधारण जानकारी नहीं, 
+            बल्कि आत्मा और परमात्मा के सत्य का प्रत्यक्ष बोध समझाया गया है।
+            यह ज्ञान मनुष्य के भीतर की अशुद्धियों—अज्ञान, मोह, राग, द्वेष, भय 
+            और भ्रम—को जड़ से मिटा देता है। इसलिए इसे पवित्रतम कहा गया है।<br><br>
+
+            योगसाधना से सिद्ध हुआ व्यक्ति—अर्थात वह साधक जिसने आचरण, ध्यान, 
+            आत्मनिग्रह और सत्य की खोज को निरन्तर साधना बनाया है—एक समय ऐसा आता है 
+            जब यह ज्ञान उसके भीतर स्वयं प्रकाशित हो जाता है। यह ज्ञान किसी पुस्तक से या 
+            किसी बाहरी व्यक्ति से थोपा नहीं जाता, बल्कि साधक के भीतर ही जन्म लेता है। 
+            जैसे सूर्य उदित होने पर अन्धकार स्वयं मिट जाता है, वैसे ही अन्तःकरण की 
+            तैयारी पूरी होने पर आत्मज्ञान स्वयं प्रकट हो जाता है।<br><br>
+
+            “कालेन” का अर्थ है समय के साथ, अर्थात साधक को धैर्य रखना चाहिए। साधना की 
+            निरन्तरता और मन की शुद्धि धीरे-धीरे आत्मा के प्रकाश को उजागर करती है। 
+            “आत्मनि विन्दति” का अभिप्राय है कि यह ज्ञान बाहर कहीं नहीं है; यह तो हमारी ही 
+            चेतना के भीतर स्थित है। साधक बस उसे पहचानने योग्य बन जाता है।<br><br>
+
+            इस श्लोक का सार यही है कि आत्मज्ञान मनुष्य को सर्वाधिक पवित्र, 
+            स्वतंत्र और निर्भय बनाता है। यह ज्ञान किसी बाहरी साधन से नहीं, बल्कि 
+            योगयुक्त जीवन और सत्यनिष्ठ साधना से धीरे-धीरे हृदय में प्रकट होता है, 
+            और वही मनुष्य को परम शान्ति और मुक्ति की ओर ले जाता है।
+        </div>
+
+        <a href="index.html">⬅ मुख्य पेज पर वापस जाएँ</a>
+
+    </div>
+</body>
+</html>
